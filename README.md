@@ -58,7 +58,7 @@ Tour and Travel Management System developed using Java, Java-Swing, and PostgreS
 ## Download JAR File
 [Download TMS JAR](https://github.com/ibrgmvtmr/travel-management-system/releases/download/v1.0.0/TMS.jar)
 
-## Screenshots
+## Graphical User Interface
 ![photo_1_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/a3d5e3d4-5d51-4a01-8317-b64cb3ea5aab)
 
 ![photo_8_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/2dd9324e-7a01-4f3d-b2ea-5454b45187cb)
@@ -77,6 +77,22 @@ Tour and Travel Management System developed using Java, Java-Swing, and PostgreS
 
 ![photo_10_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/f6d2eb9e-cedd-4fd6-a916-4bd6344d9386)
 
+## Database
+Account and Customer:
+Relationship: One-to-One
+Foreign Key: customer_id in the Customer table references account_id in the Account table.
+Explanation: Each customer is associated with exactly one account, and each account can be associated with at most one customer.
+
+Customer and Hotel_books:
+Relationship: One-to-Many
+Foreign Key: customer_id in the Hotel_books table references customer_id in the Customer table.
+Explanation: Each customer can have multiple hotel bookings, but each hotel booking is associated with exactly one customer.
+
+Hotels and Hotel_books:
+Relationship: One-to-Many
+Foreign Key: hotel_id in the Hotel_books table references hotel_id in the Hotels table.
+
+Explanation: Each hotel can have multiple bookings, but each booking is associated with exactly one hotel.
 ![photo_5_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/b1979cb9-354b-428d-a513-32fd5397c1a0)
 
 ![photo_6_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/8f235918-3040-4d0c-a296-724b10ed887e)
