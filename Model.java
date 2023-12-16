@@ -50,7 +50,7 @@ public class Model {
             viewer.setPhone(repository.getPhoneNumber(viewer.getUserName()));
             viewer.setId(repository.getId(viewer.getUserName()));
             viewer.setIdNumber(repository.getIdNumber(viewer.getUserName()));
-        } else if (command.equals("CheckPrice_BookHotel")) {
+            } else if (command.equals("CheckPrice_BookHotel")) {
 
         }
     }

@@ -66,9 +66,12 @@ public class DashboardWindow {
 //        JButton viewHotels = createButton("View hotels", 0, 350, 300, 50, 150, "Dashboard_viewHotels");
         ImageIcon bookHotelIcon = scaleImage("images/2310064.png", 50, 50);
         JButton bookHotels = createButton("Book hotels", 8, 200, 300, 50, 70, "Dashboard_bookHotels", bookHotelIcon);
-//        JButton viewBookedHotels = createButton("View booked hotels", -7, 450, 350, 50, 110, "Dashboard_viewBookedHotels");
+
+        ImageIcon viewBookedHotelIcon = scaleImage("images/hotel.png", 50, 50);
+        JButton viewBookedHotels = createButton("View booked hotels", 8, 280, 300, 50, 70, "Dashboard_viewBookedHotels", viewBookedHotelIcon);
 //        JButton destinations = createButton("Destinations", 0, 500, 300, 50, 155, "Dashboard_Destinations");
-//        JButton payment = createButton("Payment", 0, 550, 300, 50, 175, "Dashboard_Payment");
+        ImageIcon paymentIcon = scaleImage("images/1019607.png", 50, 50);
+        JButton payment = createButton("Payment", 0, 550, 300, 50, 175, "Dashboard_Payment", paymentIcon);
 //        JButton calculator = createButton("Calculator", 0, 550, 300, 50, 175, "Dashboard_Calculator");
 //        JButton about = createButton("About", 0, 600, 300, 40, 195, "Dashboard_About");
 //        JButton logout = createButton("Logout", 1000, 15, 200, 45, 0, "Dashboard_Logout");
@@ -229,6 +232,69 @@ public class DashboardWindow {
         dashboardPanel.add(newImagePanel);
     }
 
+    public void initializeViewBookedHotels() {
+        lblUsername = createLabel("Username :", 80, 80, 300, 32);
+        labelUsername = createLabel(username, 310, 80, 260, 32);
+
+        selectHotel = createLabel("Select Hotel :", 80, 130, 300, 32);
+        String[] hotelsArray = hotels.toArray(new String[0]);
+        selectHotelComboBox = createComboBox(hotelsArray, 310, 130, 200, 32);
+
+        totalPerson = createLabel("Total Person :", 80, 180, 300, 32);
+        tfTotalPerson = createTextField(310, 180, 200, 32);
+
+        daysAmount = createLabel("Amount of days :", 80, 230, 300, 32);
+        tfDaysAmount = createTextField(310, 230, 200, 32);
+
+        foodIncluded = createLabel("Food Included :", 80, 280, 300, 32);
+        foodIncludedComboBox = createComboBox(new String[]{"Yes", "No"}, 310, 280, 200, 32);
+
+        lblId = createLabel("ID :", 80, 330, 300, 32);
+        labelId = createLabel(id, 310, 330, 200, 32);
+
+        createLabel("ID Number:", 80, 380, 300, 32);
+        lblIdNumber = createLabel(idNumber, 310,  380, 300, 32);
+
+        createLabel("Phone :", 80, 430, 300, 32);
+        lblPhone = createLabel(phone, 310, 430, 200, 32);
+
+        createLabel("Total Price :", 80, 480, 300, 32);
+        lblTotalPrice = createLabel(totalPrice, 310, 480, 200, 32);
+
+        checkPrice = createButton("Check Price", 80, 540, 180, 30);
+        checkPrice.setActionCommand("CheckPrice_BookHotel");
+
+        bookHotel = createButton("Book Hotel", 320, 540, 180, 30);
+        bookHotel.setActionCommand("BookHotel_BookHotel");
+
+        JLabel l1 = new JLabel("Book Hotel");
+        l1.setForeground(new Color(255, 178, 0));
+        l1.setFont(new Font("Lobster", Font.PLAIN, 45));
+        l1.setBounds(900, 0, 1000, 55);
+        dashboardPanel.add(l1);
+
+        ImagePanel newImagePanel = new ImagePanel("images/8917193.jpg");
+        newImagePanel.setBounds(0, 0, 1150, 655);
+
+        dashboardPanel.add(newImagePanel);
+    }
+
+    public void initializePaymentWindow() {
+
+        ImagePanel paymentIcon = new ImagePanel("images/payment.png");
+        paymentIcon.setBounds(0, 0, 500, 500);
+
+        JLabel l1 = new JLabel("Payment");
+        l1.setForeground(new Color(255, 178, 0));
+        l1.setFont(new Font("Lobster", Font.PLAIN, 45));
+        l1.setBounds(380, 20, 1000, 55);
+        dashboardPanel.add(l1);
+
+        ImagePanel newImagePanel = new ImagePanel("images/background.jpg.png");
+        newImagePanel.setBounds(0, 0, 1150, 655);
+
+        dashboardPanel.add(newImagePanel);
+    }
     private JButton createButton(String label, int x, int y, int width, int height) {
         JButton button = new JButton(label);
         button.setForeground(Color.white);

@@ -34,6 +34,10 @@ public class Viewer {
         dashboardWindow.setActionListenerMainButtons(controller);
     }
 
+    public void initializeViewBookedHotelWindow() {
+        dashboardWindow.initializeViewBookedHotels();
+    }
+
     public JFrame getLoginFrame() {
         return loginWindow.getFrame();
     }
