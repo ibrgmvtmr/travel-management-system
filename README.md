@@ -56,7 +56,7 @@ Tour and Travel Management System developed using Java, Java-Swing, and PostgreS
   - Responsibilities: Java logic implementation.
  
 ## Download JAR File
-[Download TMS JAR](C:/Users/TechLine/Desktop/travel-management-systme/out/artifacts/untitled2_jar/TMS)
+[Download TMS JAR](https://github.com/ibrgmvtmr/travel-management-system/releases/download/v1.0.0/TMS.jar)
 
 ## Screenshots
 ![photo_1_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/a3d5e3d4-5d51-4a01-8317-b64cb3ea5aab)
