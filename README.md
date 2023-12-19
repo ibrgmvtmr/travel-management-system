@@ -98,7 +98,8 @@ Explanation: Each hotel can have multiple bookings, but each booking is associat
 ![photo_6_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/8f235918-3040-4d0c-a296-724b10ed887e)
 
 ## Model- View- Controller representation
-**Model:**
+
+## Model
 ![photo_1_2023-12-16_23-32-30](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/54d36199-3e97-4e30-b358-fdc3ee172d98)
 ![photo_2_2023-12-16_23-32-30](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/2b1450f0-97b1-4136-8bf6-665680fca599)
 ![photo_3_2023-12-16_23-32-30](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/a7910ae2-f6f0-49eb-9f93-a0b89f2ab61a)
@@ -107,7 +108,7 @@ Explanation: Each hotel can have multiple bookings, but each booking is associat
 ![photo_6_2023-12-16_23-32-30](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/7a2c2bee-bcc8-400c-adff-87844b55c318)
 ![photo_7_2023-12-16_23-32-30](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/9f1bddc4-24ef-4a68-83ca-7afae79a645d)
 
-**View:**
+## View
 ![photo_1_2023-12-16_23-37-56](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/128e9709-a1e7-42b2-90b0-f7dc6e714e2a)
 ![photo_2_2023-12-16_23-37-56](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/0f28ba1b-c227-4b68-ade7-f153c9ff0fd7)
 ![photo_3_2023-12-16_23-37-56](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/9b7efde1-d792-464a-903b-669d55e2ba3f)
@@ -117,6 +118,6 @@ Explanation: Each hotel can have multiple bookings, but each booking is associat
 ![photo_7_2023-12-16_23-37-56](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/dbc817a0-9e3e-49c6-b2d2-2c1625299124)
 ![photo_8_2023-12-16_23-37-56](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/7d90e871-487b-4f78-8bfb-d2f0c974caf5)
 
-**Controller:**
+## Controller
 ![photo_2023-12-16_23-40-58](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/c626e776-a1ed-4c9a-afea-3604bbf97cee)
 
