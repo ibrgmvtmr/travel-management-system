@@ -93,6 +93,9 @@ Relationship: One-to-Many
 Foreign Key: hotel_id in the Hotel_books table references hotel_id in the Hotels table.
 
 Explanation: Each hotel can have multiple bookings, but each booking is associated with exactly one hotel.
+
+![photo_2023-12-19_18-48-41](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/2b9c466c-0cd6-497a-a27d-cd59bf23a293)
+
 ![photo_5_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/b1979cb9-354b-428d-a513-32fd5397c1a0)
 
 ![photo_6_2023-12-16_22-56-13](https://github.com/ibrgmvtmr/travel-management-system/assets/122607659/8f235918-3040-4d0c-a296-724b10ed887e)
